@@ -1,0 +1,395 @@
+{
+  "732511150": {
+    "name": "EDGE-SMA",
+    "quantity": 1,
+    "xlsxrow": 2,
+    "digikey": {
+      "stock": 6841,
+      "price_1": 3.45,
+      "price_10": 30.33,
+      "url": "https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA"
+    },
+    "mouser": {
+      "stock": 9851,
+      "price_1": 5.35,
+      "price_10": 47.1,
+      "url": "https://nl.mouser.com/ProductDetail/Molex/73251-1150?qs=wUVoC1r15A9suyHDcEhR4Q%3D%3D"
+    }
+  },
+  "KRM55TR72J474MH01K": {
+    "name": "0.47uF,630V,X7T",
+    "quantity": 1,
+    "xlsxrow": 3,
+    "digikey": {
+      "stock": null,
+      "price_1": 2.52,
+      "price_10": 20.45,
+      "url": "https://www.digikey.nl/nl/products/detail/murata-electronics/KRM55TR72J474MH01K/4905672?s=N4IgTCBcDaICwE4AMBaAjANgBxwKzpQDkAREAXQF8g"
+    },
+    "mouser": {
+      "stock": null,
+      "price_1": 2.58,
+      "price_10": 20.8,
+      "url": "https://nl.mouser.com/ProductDetail/Murata-Electronics/KRM55TR72J474MH01K?qs=%2FFRSaJcRblYQDKy2GVJVaw%3D%3D"
+    }
+  },
+  "RGT16BM65DTL": {
+    "name": "RGT16BM65DTL",
+    "quantity": 1,
+    "xlsxrow": 4,
+    "digikey": {
+      "stock": null,
+      "price_1": 1.65,
+      "price_10": 14.79,
+      "url": "https://www.digikey.nl/nl/products/detail/rohm-semiconductor/RGT16BM65DTL/10222299?s=N4IgTCBcDaIEoHEAqBGAbAIQLJoKwBEkAZEAXQF8g"
+    },
+    "mouser": {
+      "stock": 159,
+      "price_1": 1.61,
+      "price_10": 14.5,
+      "url": "https://nl.mouser.com/ProductDetail/ROHM-Semiconductor/RGT16BM65DTL?qs=4v%252BiZTmLVHGsXtf6QO%2FjWw%3D%3D"
+    }
+  },
+  "ATB322524-0110-T000": {
+    "name": "ATB322524",
+    "quantity": 2,
+    "xlsxrow": 5,
+    "digikey": {
+      "stock": 7809,
+      "price_1": 1.61,
+      "price_10": 12.89,
+      "url": "https://www.digikey.nl/nl/products/detail/tdk-corporation/ATB322524-0110-T000/3008146?s=N4IgTCBcDaIIIBUBCBmMYCsYAsBaADAIyH64L4UgC6AvkA"
+    },
+    "mouser": {
+      "stock": 10106,
+      "price_1": 1.61,
+      "price_10": 10.3,
+      "url": "https://nl.mouser.com/ProductDetail/TDK/ATB322524-0110-T000?qs=YdQ7Kj7W0bzHAfbwG35aKQ%3D%3D"
+    }
+  },
+  "LDA111STR": {
+    "name": "LDA111STR",
+    "quantity": 1,
+    "xlsxrow": 6,
+    "digikey": null,
+    "mouser": {
+      "stock": 104,
+      "price_1": 1.24,
+      "price_10": 10.2,
+      "url": "https://nl.mouser.com/ProductDetail/IXYS-Integrated-Circuits/LDA111STR?qs=lQlU%252BwB40guZJ8WaenQLCg%3D%3D"
+    }
+  },
+  "3522300KFT": {
+    "name": "300K",
+    "quantity": 1,
+    "xlsxrow": 7,
+    "digikey": {
+      "stock": 3256,
+      "price_1": 0.92,
+      "price_10": 8.19,
+      "url": "https://www.digikey.nl/nl/products/detail/te-connectivity-passive-product/3522300KFT/5245066?s=N4IgTCBcDaIMwFYxjgBlQaQGIBUQF0BfIA"
+    },
+    "mouser": {
+      "stock": 576,
+      "price_1": 0.858,
+      "price_10": 6.42,
+      "url": "https://nl.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/3522300KFT?qs=sGAEpiMZZMsyYdr3R27aV32w0MfNsmcpus8bt4qfMaE%3D"
+    }
+  },
+  "BG306-02-A-2-0400-L-G": {
+    "name": "BG306-02-A-2-0400-L-G",
+    "quantity": 1,
+    "xlsxrow": 8,
+    "digikey": {
+      "stock": 2178,
+      "price_1": 0.65,
+      "price_10": 5.72,
+      "url": "https://www.digikey.nl/nl/products/detail/gct/BG306-02-A-2-0400-L-G/9859592?s=N4IgTCBcDaIEIHEDMAGAbAWhWDBBDOKALCihgDIYIgC6AvkA"
+    },
+    "mouser": {
+      "stock": 3499,
+      "price_1": 0.613,
+      "price_10": 4.85,
+      "url": "https://nl.mouser.com/ProductDetail/GCT/BG306-02-A-2-0400-L-G?qs=sGAEpiMZZMv0NwlthflBi0uEqgYQvB%2FUbQiryhy2eKU%3D"
+    }
+  },
+  "CRMA2010AF20M0FKEF": {
+    "name": "20M",
+    "quantity": 1,
+    "xlsxrow": 9,
+    "digikey": {
+      "stock": 3320,
+      "price_1": 0.63,
+      "price_10": 5.2,
+      "url": "https://www.digikey.nl/nl/products/detail/vishay-dale/CRMA2010AF20M0FKEF/7803426?s=N4IgTCBcDaIMICUCyBBMAGAjOlAxDS6uA0gKK4gC6AvkA"
+    },
+    "mouser": {
+      "stock": 629,
+      "price_1": 0.753,
+      "price_10": 6.5600000000000005,
+      "url": "https://nl.mouser.com/ProductDetail/Vishay-Techno/CRMA2010AF20M0FKEF?qs=sGAEpiMZZMv0NwlthflBi9%252BR8yiWDD1kYdUMyU3xqUg%3D"
+    }
+  },
+  "KSC741JLFS": {
+    "name": "KSC741J LFS",
+    "quantity": 2,
+    "xlsxrow": 10,
+    "digikey": {
+      "stock": 58074,
+      "price_1": 0.46,
+      "price_10": 4.37,
+      "url": "https://www.digikey.nl/nl/products/detail/c-k/KSC741J-LFS/2414968?s=N4IgTCBcDaINIGUDCB2ALARgFIBkBiCIAugL5A"
+    },
+    "mouser": {
+      "stock": null,
+      "price_1": 0.446,
+      "price_10": 4.27,
+      "url": "https://nl.mouser.com/ProductDetail/CK/KSC741JLFS?qs=sGAEpiMZZMv2p0oWhzNmfbhwUUhYsPPtmN4TFjdcKXc%3D"
+    }
+  },
+  "TL3301AF160QJ": {
+    "name": "TL3301AF160QJ",
+    "quantity": 1,
+    "xlsxrow": 11,
+    "digikey": {
+      "stock": 35118,
+      "price_1": 0.41,
+      "price_10": 4.0,
+      "url": "https://www.digikey.nl/nl/products/detail/e-switch/TL3301AF160QJ/1144799?s=N4IgTCBcDaICoBkDMSAMBGAggMXQNlQEUApEAXQF8g"
+    },
+    "mouser": {
+      "stock": 23800,
+      "price_1": 0.403,
+      "price_10": 3.91,
+      "url": "https://nl.mouser.com/ProductDetail/E-Switch/TL3301AF160QJ?qs=rR7wk9eDIwpYK6uQXPvPHg%3D%3D"
+    }
+  },
+  "MURA160T3G": {
+    "name": "MURA160T3G",
+    "quantity": 1,
+    "xlsxrow": 12,
+    "digikey": {
+      "stock": null,
+      "price_1": 0.39,
+      "price_10": 3.35,
+      "url": "https://www.digikey.nl/nl/products/detail/onsemi/MURA160T3G/919931?s=N4IgTCBcDaILIFUBKBBAjANgAwBUDMA4iALoC%2BQA"
+    },
+    "mouser": {
+      "stock": null,
+      "price_1": 0.394,
+      "price_10": 3.4000000000000004,
+      "url": "https://nl.mouser.com/ProductDetail/onsemi/MURA160T3G?qs=Gev%252BmEvV0iajoLiVF%252B%2Fg%252Bw%3D%3D"
+    }
+  },
+  "SM4005PL-TP": {
+    "name": "SM4005PL-TP",
+    "quantity": 4,
+    "xlsxrow": 13,
+    "digikey": null,
+    "mouser": {
+      "stock": 1436,
+      "price_1": 0.403,
+      "price_10": 3.08,
+      "url": "https://nl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SM4005PL-TP?qs=SdqRYZZ9IxBkssf%2FQ6q0Qg%3D%3D"
+    }
+  },
+  "AO3422": {
+    "name": "AO3422",
+    "quantity": 2,
+    "xlsxrow": 14,
+    "digikey": {
+      "stock": null,
+      "price_1": 0.38,
+      "price_10": 3.1,
+      "url": "https://www.digikey.nl/nl/products/detail/alpha-omega-semiconductor-inc/AO3422/1855787"
+    },
+    "mouser": {
+      "stock": null,
+      "price_1": 0.508,
+      "price_10": 4.17,
+      "url": "https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=sGAEpiMZZMsbRVlHDoeFZAifEGjBsGxvM48SlCXKZA0%3D"
+    }
+  },
+  "C2012X5R1H475K125AB": {
+    "name": "4.7uF/50V",
+    "quantity": 2,
+    "xlsxrow": 15,
+    "digikey": {
+      "stock": 155587,
+      "price_1": 0.42,
+      "price_10": 2.94,
+      "url": "https://www.digikey.nl/nl/products/detail/tdk-corporation/C2012X5R1H475K125AB/2443458?s=N4IgTCBcDaICxwKwFpEE4AcAGZBGZAcgCIgC6AvkA"
+    },
+    "mouser": {
+      "stock": 365421,
+      "price_1": 0.429,
+      "price_10": 2.6,
+      "url": "https://nl.mouser.com/ProductDetail/TDK/C2012X5R1H475K125AB?qs=NRhsANhppD%252BC04rCIKmBpA%3D%3D"
+    }
+  },
+  "APT1608CGCK": {
+    "name": "LED, 0603, Green",
+    "quantity": 1,
+    "xlsxrow": 16,
+    "digikey": {
+      "stock": 313637,
+      "price_1": 0.29,
+      "price_10": 2.23,
+      "url": "https://www.digikey.nl/nl/products/detail/kingbright/APT1608CGCK/1747514?s=N4IgTCBcDaIIIAUAqBGAbABgBwGEDiOA0iALoC%2BQA"
+    },
+    "mouser": {
+      "stock": 337786,
+      "price_1": 0.245,
+      "price_10": 1.7199999999999998,
+      "url": "https://nl.mouser.com/ProductDetail/Kingbright/APT1608CGCK?qs=VdjlWU%2FzoOFSew86JUt6QA%3D%3D"
+    }
+  },
+  "APT1608SRCPRV": {
+    "name": "LED, 0603, Red",
+    "quantity": 2,
+    "xlsxrow": 17,
+    "digikey": {
+      "stock": 9232,
+      "price_1": 0.28,
+      "price_10": 2.16,
+      "url": "https://www.digikey.nl/nl/products/detail/kingbright/APT1608SRCPRV/1747520?s=N4IgTCBcDaIIIAUAqBGAbABgBwGUBKAwgngGogC6AvkA"
+    },
+    "mouser": {
+      "stock": 4969,
+      "price_1": 0.35,
+      "price_10": 1.88,
+      "url": "https://nl.mouser.com/ProductDetail/Kingbright/APT1608SRCPRV?qs=y3UkhjaxUTbj6qT9EqlVug%3D%3D"
+    }
+  },
+  "MM3Z18VB": {
+    "name": "MM3Z18VB",
+    "quantity": 1,
+    "xlsxrow": 18,
+    "digikey": {
+      "stock": null,
+      "price_1": 0.21,
+      "price_10": 1.75,
+      "url": "https://www.digikey.nl/nl/products/detail/onsemi/MM3Z18VB/1626741?s=N4IgTCBcDaILJwMwC0CMAOAagIRAXQF8g"
+    },
+    "mouser": {
+      "stock": 18542,
+      "price_1": 0.219,
+      "price_10": 1.79,
+      "url": "https://nl.mouser.com/ProductDetail/onsemi-Fairchild/MM3Z18VB?qs=sGAEpiMZZMtdo5lL%2F%252BX2B6heL5qUfdQ2"
+    }
+  },
+  "S2B-XH-A(LF)(SN)": {
+    "name": "1x2_Pin_Header",
+    "quantity": 1,
+    "xlsxrow": 19,
+    "digikey": {
+      "stock": 141979,
+      "price_1": 0.16,
+      "price_10": 1.34,
+      "url": "https://www.digikey.nl/nl/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055?s=N4IgTCBcDaIMpgEIFoAaAJZBBAFAGQDEBKHOAOSJAF0BfIA"
+    },
+    "mouser": null
+  },
+  "C0603C104K5RACTU": {
+    "name": "100n",
+    "quantity": 1,
+    "xlsxrow": 20,
+    "digikey": {
+      "stock": 10615207,
+      "price_1": 0.11,
+      "price_10": 0.76,
+      "url": "https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA"
+    },
+    "mouser": {
+      "stock": 2196736,
+      "price_1": 0.228,
+      "price_10": 1.03,
+      "url": "https://nl.mouser.com/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
+    }
+  },
+  "RC0603FR-0710RL": {
+    "name": "10R",
+    "quantity": 2,
+    "xlsxrow": 21,
+    "digikey": {
+      "stock": 1690701,
+      "price_1": 0.09,
+      "price_10": 0.43,
+      "url": "https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0710RL/726879?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJwAyIAugL5A"
+    },
+    "mouser": {
+      "stock": 761435,
+      "price_1": 0.088,
+      "price_10": 0.42000000000000004,
+      "url": "https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0710RL?qs=womCuNp6NjhtCUybQ%252B6d6w%3D%3D"
+    }
+  },
+  "RC0805FR-0775RL": {
+    "name": "75R",
+    "quantity": 1,
+    "xlsxrow": 22,
+    "digikey": {
+      "stock": 160440,
+      "price_1": 0.09,
+      "price_10": 0.38,
+      "url": "https://www.digikey.nl/nl/products/detail/yageo/RC0805FR-0775RL/728132?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7PunADIgC6AvkA"
+    },
+    "mouser": {
+      "stock": 13551,
+      "price_1": 0.114,
+      "price_10": 0.27,
+      "url": "https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-0775RL?qs=VLOqbHBAO5d0HKIsXtPpHg%3D%3D"
+    }
+  },
+  "RC0805FR-072KL": {
+    "name": "2k",
+    "quantity": 1,
+    "xlsxrow": 23,
+    "digikey": {
+      "stock": 878225,
+      "price_1": 0.09,
+      "price_10": 0.38,
+      "url": "https://www.digikey.nl/nl/products/detail/yageo/RC0805FR-072KL/727664?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7GANIAyIAugL5A"
+    },
+    "mouser": {
+      "stock": 168830,
+      "price_1": 0.088,
+      "price_10": 0.25,
+      "url": "https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-072KL?qs=QrWOOBGzeCYk%2Fx0gjMNmqg%3D%3D"
+    }
+  },
+  "RC0603FR-071KL": {
+    "name": "1k",
+    "quantity": 5,
+    "xlsxrow": 24,
+    "digikey": {
+      "stock": 11735682,
+      "price_1": 0.09,
+      "price_10": 0.21,
+      "url": "https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA"
+    },
+    "mouser": {
+      "stock": null,
+      "price_1": 0.088,
+      "price_10": 0.18,
+      "url": "https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D"
+    }
+  },
+  "RC0603FR-0722KL": {
+    "name": "22k",
+    "quantity": 1,
+    "xlsxrow": 25,
+    "digikey": {
+      "stock": 956321,
+      "price_1": 0.09,
+      "price_10": 0.21,
+      "url": "https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0722KL/727056?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7GGANIAyIAugL5A"
+    },
+    "mouser": {
+      "stock": 288095,
+      "price_1": 0.088,
+      "price_10": 0.12,
+      "url": "https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0722KL?qs=diQw95jMAeO86nsIZoklhA%3D%3D"
+    }
+  }
+}

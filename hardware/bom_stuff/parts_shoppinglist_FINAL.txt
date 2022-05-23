@@ -1,0 +1,48 @@
+DIGIKEY
+https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA ; Quantity: 10 ; Price: 30.33
+https://www.digikey.nl/nl/products/detail/vishay-dale/CRMA2010AF20M0FKEF/7803426?s=N4IgTCBcDaIMICUCyBBMAGAjOlAxDS6uA0gKK4gC6AvkA ; Quantity: 10 ; Price: 5.2
+https://www.digikey.nl/nl/products/detail/c-k/KSC741J-LFS/2414968?s=N4IgTCBcDaINIGUDCB2ALARgFIBkBiCIAugL5A ; Quantity: 20 ; Price: 8.74
+https://www.digikey.nl/nl/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055?s=N4IgTCBcDaIMpgEIFoAaAJZBBAFAGQDEBKHOAOSJAF0BfIA ; Quantity: 10 ; Price: 1.34
+https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA ; Quantity: 10 ; Price: 0.76
+https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA ; Quantity: 50 ; Price: 1.05
+total: 47.42
+
+MOUSER
+https://nl.mouser.com/ProductDetail/ROHM-Semiconductor/RGT16BM65DTL?qs=4v%252BiZTmLVHGsXtf6QO%2FjWw%3D%3D ; Quantity: 10 ; Price: 14.5
+https://nl.mouser.com/ProductDetail/TDK/ATB322524-0110-T000?qs=YdQ7Kj7W0bzHAfbwG35aKQ%3D%3D ; Quantity: 20 ; Price: 20.6
+https://nl.mouser.com/ProductDetail/IXYS-Integrated-Circuits/LDA111STR?qs=lQlU%252BwB40guZJ8WaenQLCg%3D%3D ; Quantity: 10 ; Price: 10.2
+https://nl.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/3522300KFT?qs=sGAEpiMZZMsyYdr3R27aV32w0MfNsmcpus8bt4qfMaE%3D ; Quantity: 10 ; Price: 6.42
+https://nl.mouser.com/ProductDetail/GCT/BG306-02-A-2-0400-L-G?qs=sGAEpiMZZMv0NwlthflBi0uEqgYQvB%2FUbQiryhy2eKU%3D ; Quantity: 10 ; Price: 4.85
+https://nl.mouser.com/ProductDetail/E-Switch/TL3301AF160QJ?qs=rR7wk9eDIwpYK6uQXPvPHg%3D%3D ; Quantity: 10 ; Price: 3.91
+https://nl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SM4005PL-TP?qs=SdqRYZZ9IxBkssf%2FQ6q0Qg%3D%3D ; Quantity: 40 ; Price: 12.32
+https://nl.mouser.com/ProductDetail/TDK/C2012X5R1H475K125AB?qs=NRhsANhppD%252BC04rCIKmBpA%3D%3D ; Quantity: 20 ; Price: 5.2
+https://nl.mouser.com/ProductDetail/Kingbright/APT1608CGCK?qs=VdjlWU%2FzoOFSew86JUt6QA%3D%3D ; Quantity: 10 ; Price: 1.7199999999999998
+https://nl.mouser.com/ProductDetail/Kingbright/APT1608SRCPRV?qs=y3UkhjaxUTbj6qT9EqlVug%3D%3D ; Quantity: 20 ; Price: 3.76
+https://nl.mouser.com/ProductDetail/onsemi-Fairchild/MM3Z18VB?qs=sGAEpiMZZMtdo5lL%2F%252BX2B6heL5qUfdQ2 ; Quantity: 10 ; Price: 1.79
+https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0710RL?qs=womCuNp6NjhtCUybQ%252B6d6w%3D%3D ; Quantity: 20 ; Price: 0.8400000000000001
+https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-0775RL?qs=VLOqbHBAO5d0HKIsXtPpHg%3D%3D ; Quantity: 10 ; Price: 0.27
+https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-072KL?qs=QrWOOBGzeCYk%2Fx0gjMNmqg%3D%3D ; Quantity: 10 ; Price: 0.25
+https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0722KL?qs=diQw95jMAeO86nsIZoklhA%3D%3D ; Quantity: 10 ; Price: 0.12
+total: 86.75000000000003
+
+ALT
+KRM55TR72J474MH01K ; Quantity: 10 ; suggestion: https://nl.mouser.com/ProductDetail/?qs=xLDY6iXSiQYMSPjuQ3DdrA%3D%3D
+MURA160T3G ; Quantity: 10 ; suggestion: https://nl.mouser.com/ProductDetail/Diodes-Incorporated/US1J-13-F?qs=ycneeFzpdzhpFoh35BSVzg%3D%3D
+AO3422 ; Quantity: 20 ; suggestion: https://nl.mouser.com/ProductDetail/?qs=T3oQrply3y%2Frl%252BtsBfD26A%3D%3D
+total: 22.5 + 2.75 + 5.74
+
+total total: 165.16
+total per (/10): 16.52
+
+OTHER (5x)
+cover: 13.85
+battery: 6.55
+rpi: 17.9
+total: 38.3
+total per (/5): 7.66
+
+PROBE
+CONSMA013.062: 24.35 (5x)
+744710603 (digikey): 3.38 (2x)
+PCV-0-472-10L (mouser, instead of PCV-0-472-03L): 5.20 (2x)
+total per: 9.16

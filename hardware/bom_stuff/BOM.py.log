@@ -1,0 +1,1429 @@
+2022-02-08 17:29:08,661 - BOM - <module> - INFO - row: 2, name: EDGE-SMA, partnumber: 732511150, quantity: 1
+2022-02-08 17:29:08,662 - BOM - <module> - INFO - description: Edge-Mount SMA, 0.062" PCB
+2022-02-08 17:29:08,662 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA
+2022-02-08 17:29:08,663 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA
+2022-02-08 17:29:09,242 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:29:09,243 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:09,244 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA
+2022-02-08 17:29:14,270 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:14,273 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:14,274 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA
+2022-02-08 17:29:19,298 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:19,299 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:19,299 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA
+2022-02-08 17:29:20,313 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:20,313 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:20,492 - BOM - parse_digikey - DEBUG - digikey stock raw: 6.841
+2022-02-08 17:29:20,493 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'WM5534-ND', 'id': '1465156', 'packaging': 'Tray', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 3,45000', 'extendedPrice': '€ 3,45'}, {'breakQty': '10', 'unitPrice': '€ 3,03300', 'extendedPrice': '€ 30,33'}, {'breakQty': '80', 'unitPrice': '€ 2,41300', 'extendedPrice': '€ 193,04'}, {'breakQty': '1.600', 'unitPrice': '€ 1,93034', 'extendedPrice': '€ 3.088,54'}]}]
+2022-02-08 17:29:20,493 - BOM - parse_digikey - INFO - digikey: {'stock': 6841, 'price_1': 3.45, 'price_10': 30.33}
+2022-02-08 17:29:20,493 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Molex/73251-1150?qs=wUVoC1r15A9suyHDcEhR4Q%3D%3D
+2022-02-08 17:29:20,493 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Molex/73251-1150?qs=wUVoC1r15A9suyHDcEhR4Q%3D%3D
+2022-02-08 17:29:21,532 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:21,533 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:21,698 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 9.851
+            </h2>
+2022-02-08 17:29:21,700 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="pricebreakqty_1 unitpricecolhdr">
+                                    € 5,35
+                                </td>
+2022-02-08 17:29:21,703 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="pricebreakqty_10 unitpricecolhdr">
+                                    € 4,71
+                                </td>
+2022-02-08 17:29:21,703 - BOM - parse_mouser - INFO - mouser: {'stock': 9851, 'price_1': 5.35, 'price_10': 47.1}
+2022-02-08 17:29:22,704 - BOM - <module> - INFO - row: 3, name: 0.47uF,630V,X7T, partnumber: KRM55TR72J474MH01K, quantity: 1
+2022-02-08 17:29:22,705 - BOM - <module> - INFO - description: 0.47uF, 630V, X7T, Stacked
+2022-02-08 17:29:22,705 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/murata-electronics/KRM55TR72J474MH01K/4905672?s=N4IgTCBcDaICwE4AMBaAjANgBxwKzpQDkAREAXQF8g
+2022-02-08 17:29:22,706 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/murata-electronics/KRM55TR72J474MH01K/4905672?s=N4IgTCBcDaICwE4AMBaAjANgBxwKzpQDkAREAXQF8g
+2022-02-08 17:29:23,271 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:23,271 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:23,440 - BOM - parse_digikey - DEBUG - digikey stock raw: None
+2022-02-08 17:29:23,440 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '490-16845-1-ND', 'id': '7595753', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 2,52000', 'extendedPrice': '€ 2,52'}, {'breakQty': '10', 'unitPrice': '€ 2,04500', 'extendedPrice': '€ 20,45'}, {'breakQty': '50', 'unitPrice': '€ 1,78480', 'extendedPrice': '€ 89,24'}, {'breakQty': '100', 'unitPrice': '€ 1,56170', 'extendedPrice': '€ 156,17'}, {'breakQty': '500', 'unitPrice': '€ 1,18988', 'extendedPrice': '€ 594,94'}]}, {'digikeyProductNumber': '490-16845-2-ND', 'id': '4905672', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '1.000', 'unitPrice': '€ 1,04114', 'extendedPrice': '€ 1.041,14'}, {'breakQty': '2.000', 'unitPrice': '€ 1,00396', 'extendedPrice': '€ 2.007,92'}]}]
+2022-02-08 17:29:23,440 - BOM - parse_digikey - INFO - digikey: {'stock': None, 'price_1': 2.52, 'price_10': 20.45}
+2022-02-08 17:29:23,440 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Murata-Electronics/KRM55TR72J474MH01K?qs=%2FFRSaJcRblYQDKy2GVJVaw%3D%3D
+2022-02-08 17:29:23,440 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Murata-Electronics/KRM55TR72J474MH01K?qs=%2FFRSaJcRblYQDKy2GVJVaw%3D%3D
+2022-02-08 17:29:24,092 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:24,093 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:24,234 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                Beschikbaarheid
+            </h2>
+2022-02-08 17:29:24,237 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 2,58
+                                </td>
+2022-02-08 17:29:24,239 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 2,08
+                                </td>
+2022-02-08 17:29:24,240 - BOM - parse_mouser - INFO - mouser: {'stock': None, 'price_1': 2.58, 'price_10': 20.8}
+2022-02-08 17:29:25,241 - BOM - <module> - INFO - row: 4, name: RGT16BM65DTL, partnumber: RGT16BM65DTL, quantity: 1
+2022-02-08 17:29:25,241 - BOM - <module> - INFO - description: IGBT 650V
+2022-02-08 17:29:25,242 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/rohm-semiconductor/RGT16BM65DTL/10222299?s=N4IgTCBcDaIEoHEAqBGAbAIQLJoKwBEkAZEAXQF8g
+2022-02-08 17:29:25,242 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/rohm-semiconductor/RGT16BM65DTL/10222299?s=N4IgTCBcDaIEoHEAqBGAbAIQLJoKwBEkAZEAXQF8g
+2022-02-08 17:29:25,941 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:25,941 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:26,125 - BOM - parse_digikey - DEBUG - digikey stock raw: None
+2022-02-08 17:29:26,126 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'RGT16BM65DTLCT-ND', 'id': '10222300', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 1,65000', 'extendedPrice': '€ 1,65'}, {'breakQty': '10', 'unitPrice': '€ 1,47900', 'extendedPrice': '€ 14,79'}, {'breakQty': '100', 'unitPrice': '€ 1,18830', 'extendedPrice': '€ 118,83'}, {'breakQty': '500', 'unitPrice': '€ 0,97632', 'extendedPrice': '€ 488,16'}, {'breakQty': '1.000', 'unitPrice': '€ 0,80896', 'extendedPrice': '€ 808,96'}]}, {'digikeyProductNumber': 'RGT16BM65DTLTR-ND', 'id': '10222299', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '2.500', 'unitPrice': '€ 0,78948', 'extendedPrice': '€ 1.973,70'}]}]
+2022-02-08 17:29:26,126 - BOM - parse_digikey - INFO - digikey: {'stock': None, 'price_1': 1.65, 'price_10': 14.79}
+2022-02-08 17:29:26,126 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/ROHM-Semiconductor/RGT16BM65DTL?qs=4v%252BiZTmLVHGsXtf6QO%2FjWw%3D%3D
+2022-02-08 17:29:26,126 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/ROHM-Semiconductor/RGT16BM65DTL?qs=4v%252BiZTmLVHGsXtf6QO%2FjWw%3D%3D
+2022-02-08 17:29:26,662 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:26,662 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:26,815 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 159
+            </h2>
+2022-02-08 17:29:26,818 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="pricebreakqty_1 unitpricecolhdr">
+                                    € 1,61
+                                </td>
+2022-02-08 17:29:26,820 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="pricebreakqty_10 unitpricecolhdr">
+                                    € 1,45
+                                </td>
+2022-02-08 17:29:26,820 - BOM - parse_mouser - INFO - mouser: {'stock': 159, 'price_1': 1.61, 'price_10': 14.5}
+2022-02-08 17:29:27,822 - BOM - <module> - INFO - row: 5, name: ATB322524, partnumber: ATB322524-0110-T000, quantity: 2
+2022-02-08 17:29:27,822 - BOM - <module> - INFO - description: HV Transformer 1:10, Small
+2022-02-08 17:29:27,823 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/tdk-corporation/ATB322524-0110-T000/3008146?s=N4IgTCBcDaIIIBUBCBmMYCsYAsBaADAIyH64L4UgC6AvkA
+2022-02-08 17:29:27,823 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/tdk-corporation/ATB322524-0110-T000/3008146?s=N4IgTCBcDaIIIBUBCBmMYCsYAsBaADAIyH64L4UgC6AvkA
+2022-02-08 17:29:28,708 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:28,708 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:28,919 - BOM - parse_digikey - DEBUG - digikey stock raw: 7.809
+2022-02-08 17:29:28,919 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '445-8636-1-ND', 'id': '3008154', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 1,61000', 'extendedPrice': '€ 1,61'}, {'breakQty': '10', 'unitPrice': '€ 1,28900', 'extendedPrice': '€ 12,89'}, {'breakQty': '25', 'unitPrice': '€ 1,04720', 'extendedPrice': '€ 26,18'}, {'breakQty': '50', 'unitPrice': '€ 1,02040', 'extendedPrice': '€ 51,02'}, {'breakQty': '100', 'unitPrice': '€ 0,99360', 'extendedPrice': '€ 99,36'}, {'breakQty': '250', 'unitPrice': '€ 0,96672', 'extendedPrice': '€ 241,68'}, {'breakQty': '500', 'unitPrice': '€ 0,95866', 'extendedPrice': '€ 479,33'}]}, {'digikeyProductNumber': '445-8636-2-ND', 'id': '3008146', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '1.000', 'unitPrice': '€ 0,84855', 'extendedPrice': '€ 848,55'}, {'breakQty': '5.000', 'unitPrice': '€ 0,77874', 'extendedPrice': '€ 3.893,70'}, {'breakQty': '10.000', 'unitPrice': '€ 0,75188', 'extendedPrice': '€ 7.518,80'}]}]
+2022-02-08 17:29:28,919 - BOM - parse_digikey - INFO - digikey: {'stock': 7809, 'price_1': 1.61, 'price_10': 12.89}
+2022-02-08 17:29:28,919 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/TDK/ATB322524-0110-T000?qs=YdQ7Kj7W0bzHAfbwG35aKQ%3D%3D
+2022-02-08 17:29:28,919 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/TDK/ATB322524-0110-T000?qs=YdQ7Kj7W0bzHAfbwG35aKQ%3D%3D
+2022-02-08 17:29:29,933 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:29,933 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:30,072 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 10.106
+            </h2>
+2022-02-08 17:29:30,075 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 1,61
+                                </td>
+2022-02-08 17:29:30,077 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 1,03
+                                </td>
+2022-02-08 17:29:30,077 - BOM - parse_mouser - INFO - mouser: {'stock': 10106, 'price_1': 1.61, 'price_10': 10.3}
+2022-02-08 17:29:31,078 - BOM - <module> - INFO - row: 6, name: LDA111STR, partnumber: LDA111STR, quantity: 1
+2022-02-08 17:29:31,078 - BOM - <module> - INFO - description: Phototransistor
+2022-02-08 17:29:31,078 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/ixys-integrated-circuits-division/LDA111STR/655240?s=N4IgTCBcDaIDIBECCBGNBlAKgJRAXQF8g
+2022-02-08 17:29:31,079 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/ixys-integrated-circuits-division/LDA111STR/655240?s=N4IgTCBcDaIDIBECCBGNBlAKgJRAXQF8g
+2022-02-08 17:29:36,114 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:36,115 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:36,116 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/ixys-integrated-circuits-division/LDA111STR/655240?s=N4IgTCBcDaIDIBECCBGNBlAKgJRAXQF8g
+2022-02-08 17:29:41,142 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:41,143 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:41,144 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/ixys-integrated-circuits-division/LDA111STR/655240?s=N4IgTCBcDaIDIBECCBGNBlAKgJRAXQF8g
+2022-02-08 17:29:46,172 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:46,173 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:46,174 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/ixys-integrated-circuits-division/LDA111STR/655240?s=N4IgTCBcDaIDIBECCBGNBlAKgJRAXQF8g
+2022-02-08 17:29:51,198 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:51,199 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:51,200 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/ixys-integrated-circuits-division/LDA111STR/655240?s=N4IgTCBcDaIDIBECCBGNBlAKgJRAXQF8g
+2022-02-08 17:29:56,233 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:29:56,234 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:29:56,234 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/IXYS-Integrated-Circuits/LDA111STR?qs=lQlU%252BwB40guZJ8WaenQLCg%3D%3D
+2022-02-08 17:29:56,235 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/IXYS-Integrated-Circuits/LDA111STR?qs=lQlU%252BwB40guZJ8WaenQLCg%3D%3D
+2022-02-08 17:29:56,743 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:29:56,743 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:29:56,884 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 104
+            </h2>
+2022-02-08 17:29:56,887 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 1,24
+                                </td>
+2022-02-08 17:29:56,890 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 1,02
+                                </td>
+2022-02-08 17:29:56,890 - BOM - parse_mouser - INFO - mouser: {'stock': 104, 'price_1': 1.24, 'price_10': 10.2}
+2022-02-08 17:29:57,892 - BOM - <module> - INFO - row: 7, name: 300K, partnumber: 3522300KFT, quantity: 1
+2022-02-08 17:29:57,893 - BOM - <module> - INFO - description: 300K res, 2512, 1%, 3W
+2022-02-08 17:29:57,893 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/te-connectivity-passive-product/3522300KFT/5245066?s=N4IgTCBcDaIMwFYxjgBlQaQGIBUQF0BfIA
+2022-02-08 17:29:57,893 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/te-connectivity-passive-product/3522300KFT/5245066?s=N4IgTCBcDaIMwFYxjgBlQaQGIBUQF0BfIA
+2022-02-08 17:30:02,917 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:30:02,918 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:02,919 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/te-connectivity-passive-product/3522300KFT/5245066?s=N4IgTCBcDaIMwFYxjgBlQaQGIBUQF0BfIA
+2022-02-08 17:30:03,515 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:03,516 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:03,683 - BOM - parse_digikey - DEBUG - digikey stock raw: 3.256
+2022-02-08 17:30:03,684 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'A121215CT-ND', 'id': '5245272', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,92000', 'extendedPrice': '€ 0,92'}, {'breakQty': '10', 'unitPrice': '€ 0,81900', 'extendedPrice': '€ 8,19'}, {'breakQty': '100', 'unitPrice': '€ 0,59430', 'extendedPrice': '€ 59,43'}, {'breakQty': '1.000', 'unitPrice': '€ 0,35134', 'extendedPrice': '€ 351,34'}]}, {'digikeyProductNumber': 'A121215TR-ND', 'id': '5245066', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '2.000', 'unitPrice': '€ 0,34342', 'extendedPrice': '€ 686,84'}]}]
+2022-02-08 17:30:03,684 - BOM - parse_digikey - INFO - digikey: {'stock': 3256, 'price_1': 0.92, 'price_10': 8.19}
+2022-02-08 17:30:03,684 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/3522300KFT?qs=sGAEpiMZZMsyYdr3R27aV32w0MfNsmcpus8bt4qfMaE%3D
+2022-02-08 17:30:03,684 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/3522300KFT?qs=sGAEpiMZZMsyYdr3R27aV32w0MfNsmcpus8bt4qfMaE%3D
+2022-02-08 17:30:04,847 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:04,847 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:04,984 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 576
+            </h2>
+2022-02-08 17:30:04,987 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,858
+                                </td>
+2022-02-08 17:30:04,989 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,642
+                                </td>
+2022-02-08 17:30:04,989 - BOM - parse_mouser - INFO - mouser: {'stock': 576, 'price_1': 0.858, 'price_10': 6.42}
+2022-02-08 17:30:05,990 - BOM - <module> - INFO - row: 8, name: BG306-02-A-2-0400-L-G, partnumber: BG306-02-A-2-0400-L-G, quantity: 1
+2022-02-08 17:30:05,990 - BOM - <module> - INFO - description: 2-Pin SMD, Female Header, 0.1" spacing
+2022-02-08 17:30:05,991 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/gct/BG306-02-A-2-0400-L-G/9859592?s=N4IgTCBcDaIEIHEDMAGAbAWhWDBBDOKALCihgDIYIgC6AvkA
+2022-02-08 17:30:05,991 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/gct/BG306-02-A-2-0400-L-G/9859592?s=N4IgTCBcDaIEIHEDMAGAbAWhWDBBDOKALCihgDIYIgC6AvkA
+2022-02-08 17:30:11,019 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:30:11,020 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:11,021 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/gct/BG306-02-A-2-0400-L-G/9859592?s=N4IgTCBcDaIEIHEDMAGAbAWhWDBBDOKALCihgDIYIgC6AvkA
+2022-02-08 17:30:11,707 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:11,708 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:11,709 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/gct/BG306-02-A-2-0400-L-G/9859592?s=N4IgTCBcDaIEIHEDMAGAbAWhWDBBDOKALCihgDIYIgC6AvkA
+2022-02-08 17:30:12,116 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:12,116 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:12,117 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/gct/BG306-02-A-2-0400-L-G/9859592?s=N4IgTCBcDaIEIHEDMAGAbAWhWDBBDOKALCihgDIYIgC6AvkA
+2022-02-08 17:30:12,732 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:12,732 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:12,951 - BOM - parse_digikey - DEBUG - digikey stock raw: 2.178
+2022-02-08 17:30:12,951 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '2073-BG306-02-A-2-0400-L-G-ND', 'id': '9859592', 'packaging': 'Bulk', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,65000', 'extendedPrice': '€ 0,65'}, {'breakQty': '10', 'unitPrice': '€ 0,57200', 'extendedPrice': '€ 5,72'}, {'breakQty': '100', 'unitPrice': '€ 0,47130', 'extendedPrice': '€ 47,13'}, {'breakQty': '500', 'unitPrice': '€ 0,40978', 'extendedPrice': '€ 204,89'}, {'breakQty': '1.000', 'unitPrice': '€ 0,33806', 'extendedPrice': '€ 338,06'}, {'breakQty': '5.000', 'unitPrice': '€ 0,29709', 'extendedPrice': '€ 1.485,45'}, {'breakQty': '10.000', 'unitPrice': '€ 0,27660', 'extendedPrice': '€ 2.766,00'}]}]
+2022-02-08 17:30:12,951 - BOM - parse_digikey - INFO - digikey: {'stock': 2178, 'price_1': 0.65, 'price_10': 5.72}
+2022-02-08 17:30:12,951 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/GCT/BG306-02-A-2-0400-L-G?qs=sGAEpiMZZMv0NwlthflBi0uEqgYQvB%2FUbQiryhy2eKU%3D
+2022-02-08 17:30:12,952 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/GCT/BG306-02-A-2-0400-L-G?qs=sGAEpiMZZMv0NwlthflBi0uEqgYQvB%2FUbQiryhy2eKU%3D
+2022-02-08 17:30:13,653 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:13,654 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:13,782 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 3.499
+            </h2>
+2022-02-08 17:30:13,785 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="pricebreakqty_1 unitpricecolhdr">
+                                    € 0,613
+                                </td>
+2022-02-08 17:30:13,787 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="pricebreakqty_10 unitpricecolhdr">
+                                    € 0,485
+                                </td>
+2022-02-08 17:30:13,787 - BOM - parse_mouser - INFO - mouser: {'stock': 3499, 'price_1': 0.613, 'price_10': 4.85}
+2022-02-08 17:30:14,789 - BOM - <module> - INFO - row: 9, name: 20M, partnumber: CRMA2010AF20M0FKEF, quantity: 1
+2022-02-08 17:30:14,789 - BOM - <module> - INFO - description: 20M, 2010, 1%
+2022-02-08 17:30:14,790 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/vishay-dale/CRMA2010AF20M0FKEF/7803426?s=N4IgTCBcDaIMICUCyBBMAGAjOlAxDS6uA0gKK4gC6AvkA
+2022-02-08 17:30:14,790 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/vishay-dale/CRMA2010AF20M0FKEF/7803426?s=N4IgTCBcDaIMICUCyBBMAGAjOlAxDS6uA0gKK4gC6AvkA
+2022-02-08 17:30:15,413 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:15,414 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:15,415 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/vishay-dale/CRMA2010AF20M0FKEF/7803426?s=N4IgTCBcDaIMICUCyBBMAGAjOlAxDS6uA0gKK4gC6AvkA
+2022-02-08 17:30:15,908 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:15,909 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:16,068 - BOM - parse_digikey - DEBUG - digikey stock raw: 3.320
+2022-02-08 17:30:16,068 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'BC4974TR-ND', 'id': '7803426', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '4.000', 'unitPrice': '€ 0,24096', 'extendedPrice': '€ 963,84'}]}, {'digikeyProductNumber': 'BC4974CT-ND', 'id': '7803441', 'packaging': 'Cut Tape (CT)', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,63000', 'extendedPrice': '€ 0,63'}, {'breakQty': '10', 'unitPrice': '€ 0,52000', 'extendedPrice': '€ 5,20'}, {'breakQty': '100', 'unitPrice': '€ 0,34920', 'extendedPrice': '€ 34,92'}, {'breakQty': '1.000', 'unitPrice': '€ 0,20431', 'extendedPrice': '€ 204,31'}]}]
+2022-02-08 17:30:16,069 - BOM - parse_digikey - INFO - digikey: {'stock': 3320, 'price_1': 0.63, 'price_10': 5.2}
+2022-02-08 17:30:16,069 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Vishay-Techno/CRMA2010AF20M0FKEF?qs=sGAEpiMZZMv0NwlthflBi9%252BR8yiWDD1kYdUMyU3xqUg%3D
+2022-02-08 17:30:16,069 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Vishay-Techno/CRMA2010AF20M0FKEF?qs=sGAEpiMZZMv0NwlthflBi9%252BR8yiWDD1kYdUMyU3xqUg%3D
+2022-02-08 17:30:16,943 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:16,943 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:17,089 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 629
+            </h2>
+2022-02-08 17:30:17,091 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,753
+                                </td>
+2022-02-08 17:30:17,094 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,656
+                                </td>
+2022-02-08 17:30:17,094 - BOM - parse_mouser - INFO - mouser: {'stock': 629, 'price_1': 0.753, 'price_10': 6.5600000000000005}
+2022-02-08 17:30:18,095 - BOM - <module> - INFO - row: 10, name: KSC741J LFS, partnumber: KSC741JLFS, quantity: 2
+2022-02-08 17:30:18,096 - BOM - <module> - INFO - description: SWITCH TACTILE SPST-NO 0.01A 32V
+2022-02-08 17:30:18,096 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/c-k/KSC741J-LFS/2414968?s=N4IgTCBcDaINIGUDCB2ALARgFIBkBiCIAugL5A
+2022-02-08 17:30:18,096 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/c-k/KSC741J-LFS/2414968?s=N4IgTCBcDaINIGUDCB2ALARgFIBkBiCIAugL5A
+2022-02-08 17:30:18,980 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:18,980 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:19,190 - BOM - parse_digikey - DEBUG - digikey stock raw: 58.074
+2022-02-08 17:30:19,191 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'CKN10309CT-ND', 'id': '2043320', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,46000', 'extendedPrice': '€ 0,46'}, {'breakQty': '10', 'unitPrice': '€ 0,43700', 'extendedPrice': '€ 4,37'}, {'breakQty': '25', 'unitPrice': '€ 0,42080', 'extendedPrice': '€ 10,52'}, {'breakQty': '100', 'unitPrice': '€ 0,36420', 'extendedPrice': '€ 36,42'}, {'breakQty': '250', 'unitPrice': '€ 0,33184', 'extendedPrice': '€ 82,96'}, {'breakQty': '500', 'unitPrice': '€ 0,30756', 'extendedPrice': '€ 153,78'}]}, {'digikeyProductNumber': 'CKN10309TR-ND', 'id': '2414968', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '1.000', 'unitPrice': '€ 0,27518', 'extendedPrice': '€ 275,18'}, {'breakQty': '3.000', 'unitPrice': '€ 0,26061', 'extendedPrice': '€ 781,83'}, {'breakQty': '5.000', 'unitPrice': '€ 0,24119', 'extendedPrice': '€ 1.205,95'}, {'breakQty': '10.000', 'unitPrice': '€ 0,22500', 'extendedPrice': '€ 2.250,00'}]}]
+2022-02-08 17:30:19,191 - BOM - parse_digikey - INFO - digikey: {'stock': 58074, 'price_1': 0.46, 'price_10': 4.37}
+2022-02-08 17:30:19,191 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/CK/KSC741JLFS?qs=sGAEpiMZZMv2p0oWhzNmfbhwUUhYsPPtmN4TFjdcKXc%3D
+2022-02-08 17:30:19,191 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/CK/KSC741JLFS?qs=sGAEpiMZZMv2p0oWhzNmfbhwUUhYsPPtmN4TFjdcKXc%3D
+2022-02-08 17:30:19,690 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:19,691 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:19,827 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                Beschikbaarheid
+            </h2>
+2022-02-08 17:30:19,829 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="pricebreakqty_1 unitpricecolhdr">
+                                    € 0,446
+                                </td>
+2022-02-08 17:30:19,832 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="pricebreakqty_10 unitpricecolhdr">
+                                    € 0,427
+                                </td>
+2022-02-08 17:30:19,832 - BOM - parse_mouser - INFO - mouser: {'stock': None, 'price_1': 0.446, 'price_10': 4.27}
+2022-02-08 17:30:20,833 - BOM - <module> - INFO - row: 11, name: TL3301AF160QJ, partnumber: TL3301AF160QJ, quantity: 1
+2022-02-08 17:30:20,834 - BOM - <module> - INFO - description: SWITCH TACTILE SPST-NO 0.01A 32V
+2022-02-08 17:30:20,834 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/e-switch/TL3301AF160QJ/1144799?s=N4IgTCBcDaICoBkDMSAMBGAggMXQNlQEUApEAXQF8g
+2022-02-08 17:30:20,835 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/e-switch/TL3301AF160QJ/1144799?s=N4IgTCBcDaICoBkDMSAMBGAggMXQNlQEUApEAXQF8g
+2022-02-08 17:30:21,436 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:21,437 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:21,438 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/e-switch/TL3301AF160QJ/1144799?s=N4IgTCBcDaICoBkDMSAMBGAggMXQNlQEUApEAXQF8g
+2022-02-08 17:30:22,356 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:22,357 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:22,357 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/e-switch/TL3301AF160QJ/1144799?s=N4IgTCBcDaICoBkDMSAMBGAggMXQNlQEUApEAXQF8g
+2022-02-08 17:30:24,201 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:24,201 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:24,373 - BOM - parse_digikey - DEBUG - digikey stock raw: 35.118
+2022-02-08 17:30:24,373 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'EG4374CT-ND', 'id': '1144804', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,41000', 'extendedPrice': '€ 0,41'}, {'breakQty': '10', 'unitPrice': '€ 0,40000', 'extendedPrice': '€ 4,00'}, {'breakQty': '25', 'unitPrice': '€ 0,38560', 'extendedPrice': '€ 9,64'}, {'breakQty': '100', 'unitPrice': '€ 0,33360', 'extendedPrice': '€ 33,36'}, {'breakQty': '250', 'unitPrice': '€ 0,30396', 'extendedPrice': '€ 75,99'}, {'breakQty': '500', 'unitPrice': '€ 0,28170', 'extendedPrice': '€ 140,85'}]}, {'digikeyProductNumber': 'EG4374TR-ND', 'id': '1144799', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '1.100', 'unitPrice': '€ 0,25205', 'extendedPrice': '€ 277,25'}, {'breakQty': '3.300', 'unitPrice': '€ 0,23871', 'extendedPrice': '€ 787,74'}, {'breakQty': '5.500', 'unitPrice': '€ 0,22091', 'extendedPrice': '€ 1.215,00'}, {'breakQty': '11.000', 'unitPrice': '€ 0,20609', 'extendedPrice': '€ 2.266,99'}]}]
+2022-02-08 17:30:24,373 - BOM - parse_digikey - INFO - digikey: {'stock': 35118, 'price_1': 0.41, 'price_10': 4.0}
+2022-02-08 17:30:24,374 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/E-Switch/TL3301AF160QJ?qs=rR7wk9eDIwpYK6uQXPvPHg%3D%3D
+2022-02-08 17:30:24,374 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/E-Switch/TL3301AF160QJ?qs=rR7wk9eDIwpYK6uQXPvPHg%3D%3D
+2022-02-08 17:30:25,022 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:25,022 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:25,155 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 23.800
+            </h2>
+2022-02-08 17:30:25,157 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,403
+                                </td>
+2022-02-08 17:30:25,159 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,391
+                                </td>
+2022-02-08 17:30:25,160 - BOM - parse_mouser - INFO - mouser: {'stock': 23800, 'price_1': 0.403, 'price_10': 3.91}
+2022-02-08 17:30:26,161 - BOM - <module> - INFO - row: 12, name: MURA160T3G, partnumber: MURA160T3G, quantity: 1
+2022-02-08 17:30:26,162 - BOM - <module> - INFO - description: 600V, 1A, Fast Recovery Diode
+2022-02-08 17:30:26,162 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/onsemi/MURA160T3G/919931?s=N4IgTCBcDaILIFUBKBBAjANgAwBUDMA4iALoC%2BQA
+2022-02-08 17:30:26,163 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/onsemi/MURA160T3G/919931?s=N4IgTCBcDaILIFUBKBBAjANgAwBUDMA4iALoC%2BQA
+2022-02-08 17:30:26,657 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:26,658 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:26,659 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/onsemi/MURA160T3G/919931?s=N4IgTCBcDaILIFUBKBBAjANgAwBUDMA4iALoC%2BQA
+2022-02-08 17:30:28,296 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:28,297 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:28,466 - BOM - parse_digikey - DEBUG - digikey stock raw: None
+2022-02-08 17:30:28,466 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'MURA160T3GOSCT-ND', 'id': '964569', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,39000', 'extendedPrice': '€ 0,39'}, {'breakQty': '10', 'unitPrice': '€ 0,33500', 'extendedPrice': '€ 3,35'}, {'breakQty': '100', 'unitPrice': '€ 0,25030', 'extendedPrice': '€ 25,03'}, {'breakQty': '500', 'unitPrice': '€ 0,19664', 'extendedPrice': '€ 98,32'}, {'breakQty': '1.000', 'unitPrice': '€ 0,15194', 'extendedPrice': '€ 151,94'}, {'breakQty': '2.000', 'unitPrice': '€ 0,14756', 'extendedPrice': '€ 295,12'}]}, {'digikeyProductNumber': 'MURA160T3GOSTR-ND', 'id': '919931', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '5.000', 'unitPrice': '€ 0,14756', 'extendedPrice': '€ 737,80'}]}]
+2022-02-08 17:30:28,466 - BOM - parse_digikey - INFO - digikey: {'stock': None, 'price_1': 0.39, 'price_10': 3.35}
+2022-02-08 17:30:28,467 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/onsemi/MURA160T3G?qs=Gev%252BmEvV0iajoLiVF%252B%2Fg%252Bw%3D%3D
+2022-02-08 17:30:28,467 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/onsemi/MURA160T3G?qs=Gev%252BmEvV0iajoLiVF%252B%2Fg%252Bw%3D%3D
+2022-02-08 17:30:29,116 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:29,117 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:29,298 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                Beschikbaarheid
+            </h2>
+2022-02-08 17:30:29,301 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,394
+                                </td>
+2022-02-08 17:30:29,303 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,34
+                                </td>
+2022-02-08 17:30:29,303 - BOM - parse_mouser - INFO - mouser: {'stock': None, 'price_1': 0.394, 'price_10': 3.4000000000000004}
+2022-02-08 17:30:30,305 - BOM - <module> - INFO - row: 13, name: SM4005PL-TP, partnumber: SM4005PL-TP, quantity: 4
+2022-02-08 17:30:30,305 - BOM - <module> - INFO - description: None
+2022-02-08 17:30:30,306 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/micro-commercial-co/SM4005PL-TP/1793248?s=N4IgTCBcDaIMoFkAsAGFBWACgGQLQBVMQBdAXyA
+2022-02-08 17:30:30,306 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/micro-commercial-co/SM4005PL-TP/1793248?s=N4IgTCBcDaIMoFkAsAGFBWACgGQLQBVMQBdAXyA
+2022-02-08 17:30:35,330 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:30:35,331 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:35,332 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/micro-commercial-co/SM4005PL-TP/1793248?s=N4IgTCBcDaIMoFkAsAGFBWACgGQLQBVMQBdAXyA
+2022-02-08 17:30:36,079 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:36,080 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:36,081 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/micro-commercial-co/SM4005PL-TP/1793248?s=N4IgTCBcDaIMoFkAsAGFBWACgGQLQBVMQBdAXyA
+2022-02-08 17:30:41,102 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:30:41,103 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:41,104 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/micro-commercial-co/SM4005PL-TP/1793248?s=N4IgTCBcDaIMoFkAsAGFBWACgGQLQBVMQBdAXyA
+2022-02-08 17:30:41,608 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:41,609 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:41,610 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/micro-commercial-co/SM4005PL-TP/1793248?s=N4IgTCBcDaIMoFkAsAGFBWACgGQLQBVMQBdAXyA
+2022-02-08 17:30:46,634 - BOM - <module> - ERROR - The read operation timed out
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+2022-02-08 17:30:46,635 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:46,636 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SM4005PL-TP?qs=SdqRYZZ9IxBkssf%2FQ6q0Qg%3D%3D
+2022-02-08 17:30:46,636 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SM4005PL-TP?qs=SdqRYZZ9IxBkssf%2FQ6q0Qg%3D%3D
+2022-02-08 17:30:47,448 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:47,448 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:47,581 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 1.436
+            </h2>
+2022-02-08 17:30:47,583 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,403
+                                </td>
+2022-02-08 17:30:47,586 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,308
+                                </td>
+2022-02-08 17:30:47,586 - BOM - parse_mouser - INFO - mouser: {'stock': 1436, 'price_1': 0.403, 'price_10': 3.08}
+2022-02-08 17:30:48,587 - BOM - <module> - INFO - row: 14, name: AO3422, partnumber: AO3422, quantity: 2
+2022-02-08 17:30:48,587 - BOM - <module> - INFO - description: MOSFET N-CH 30V 2.2A SOT23-3
+2022-02-08 17:30:48,588 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/alpha-omega-semiconductor-inc/AO3422/1855787
+2022-02-08 17:30:48,588 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/alpha-omega-semiconductor-inc/AO3422/1855787
+2022-02-08 17:30:49,399 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:49,400 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:49,401 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/alpha-omega-semiconductor-inc/AO3422/1855787
+2022-02-08 17:30:50,321 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:50,322 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:50,492 - BOM - parse_digikey - DEBUG - digikey stock raw: None
+2022-02-08 17:30:50,492 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '785-1015-1-ND', 'id': '1855957', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,38000', 'extendedPrice': '€ 0,38'}, {'breakQty': '10', 'unitPrice': '€ 0,31000', 'extendedPrice': '€ 3,10'}, {'breakQty': '100', 'unitPrice': '€ 0,21110', 'extendedPrice': '€ 21,11'}, {'breakQty': '500', 'unitPrice': '€ 0,15832', 'extendedPrice': '€ 79,16'}, {'breakQty': '1.000', 'unitPrice': '€ 0,11874', 'extendedPrice': '€ 118,74'}]}, {'digikeyProductNumber': '785-1015-2-ND', 'id': '1855787', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '3.000', 'unitPrice': '€ 0,10885', 'extendedPrice': '€ 326,55'}, {'breakQty': '6.000', 'unitPrice': '€ 0,10225', 'extendedPrice': '€ 613,50'}]}]
+2022-02-08 17:30:50,493 - BOM - parse_digikey - INFO - digikey: {'stock': None, 'price_1': 0.38, 'price_10': 3.1}
+2022-02-08 17:30:50,493 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=sGAEpiMZZMsbRVlHDoeFZAifEGjBsGxvM48SlCXKZA0%3D
+2022-02-08 17:30:50,493 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=sGAEpiMZZMsbRVlHDoeFZAifEGjBsGxvM48SlCXKZA0%3D
+2022-02-08 17:30:51,034 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:51,035 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:51,171 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                Beschikbaarheid
+            </h2>
+2022-02-08 17:30:51,174 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,508
+                                </td>
+2022-02-08 17:30:51,176 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,417
+                                </td>
+2022-02-08 17:30:51,176 - BOM - parse_mouser - INFO - mouser: {'stock': None, 'price_1': 0.508, 'price_10': 4.17}
+2022-02-08 17:30:52,178 - BOM - <module> - INFO - row: 15, name: 4.7uF/50V, partnumber: C2012X5R1H475K125AB, quantity: 2
+2022-02-08 17:30:52,178 - BOM - <module> - INFO - description: 4u7, 50V, 0805, Ceramic
+2022-02-08 17:30:52,178 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/tdk-corporation/C2012X5R1H475K125AB/2443458?s=N4IgTCBcDaICxwKwFpEE4AcAGZBGZAcgCIgC6AvkA
+2022-02-08 17:30:52,179 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/tdk-corporation/C2012X5R1H475K125AB/2443458?s=N4IgTCBcDaICxwKwFpEE4AcAGZBGZAcgCIgC6AvkA
+2022-02-08 17:30:52,566 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:52,567 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:52,568 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/tdk-corporation/C2012X5R1H475K125AB/2443458?s=N4IgTCBcDaICxwKwFpEE4AcAGZBGZAcgCIgC6AvkA
+2022-02-08 17:30:53,282 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:30:53,283 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:30:53,284 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/tdk-corporation/C2012X5R1H475K125AB/2443458?s=N4IgTCBcDaICxwKwFpEE4AcAGZBGZAcgCIgC6AvkA
+2022-02-08 17:30:53,738 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:53,739 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:53,916 - BOM - parse_digikey - DEBUG - digikey stock raw: 155.587
+2022-02-08 17:30:53,916 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '445-5980-1-ND', 'id': '2444021', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,42000', 'extendedPrice': '€ 0,42'}, {'breakQty': '10', 'unitPrice': '€ 0,29400', 'extendedPrice': '€ 2,94'}, {'breakQty': '50', 'unitPrice': '€ 0,22260', 'extendedPrice': '€ 11,13'}, {'breakQty': '100', 'unitPrice': '€ 0,19380', 'extendedPrice': '€ 19,38'}, {'breakQty': '500', 'unitPrice': '€ 0,14356', 'extendedPrice': '€ 71,78'}, {'breakQty': '1.000', 'unitPrice': '€ 0,12202', 'extendedPrice': '€ 122,02'}]}, {'digikeyProductNumber': '445-5980-2-ND', 'id': '2443458', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '2.000', 'unitPrice': '€ 0,11485', 'extendedPrice': '€ 229,70'}, {'breakQty': '4.000', 'unitPrice': '€ 0,10767', 'extendedPrice': '€ 430,68'}]}]
+2022-02-08 17:30:53,916 - BOM - parse_digikey - INFO - digikey: {'stock': 155587, 'price_1': 0.42, 'price_10': 2.94}
+2022-02-08 17:30:53,916 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/TDK/C2012X5R1H475K125AB?qs=NRhsANhppD%252BC04rCIKmBpA%3D%3D
+2022-02-08 17:30:53,916 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/TDK/C2012X5R1H475K125AB?qs=NRhsANhppD%252BC04rCIKmBpA%3D%3D
+2022-02-08 17:30:54,717 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:54,717 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:54,894 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 365.421
+            </h2>
+2022-02-08 17:30:54,896 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,429
+                                </td>
+2022-02-08 17:30:54,899 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,26
+                                </td>
+2022-02-08 17:30:54,899 - BOM - parse_mouser - INFO - mouser: {'stock': 365421, 'price_1': 0.429, 'price_10': 2.6}
+2022-02-08 17:30:55,900 - BOM - <module> - INFO - row: 16, name: LED, 0603, Green, partnumber: APT1608CGCK, quantity: 1
+2022-02-08 17:30:55,901 - BOM - <module> - INFO - description: Chip LED, Green
+2022-02-08 17:30:55,901 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/kingbright/APT1608CGCK/1747514?s=N4IgTCBcDaIIIAUAqBGAbABgBwGEDiOA0iALoC%2BQA
+2022-02-08 17:30:55,902 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kingbright/APT1608CGCK/1747514?s=N4IgTCBcDaIIIAUAqBGAbABgBwGEDiOA0iALoC%2BQA
+2022-02-08 17:30:56,972 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:56,972 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:57,145 - BOM - parse_digikey - DEBUG - digikey stock raw: 313.637
+2022-02-08 17:30:57,145 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '754-1116-1-ND', 'id': '1747833', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,29000', 'extendedPrice': '€ 0,29'}, {'breakQty': '10', 'unitPrice': '€ 0,22300', 'extendedPrice': '€ 2,23'}, {'breakQty': '100', 'unitPrice': '€ 0,10000', 'extendedPrice': '€ 10,00'}, {'breakQty': '500', 'unitPrice': '€ 0,09034', 'extendedPrice': '€ 45,17'}, {'breakQty': '1.000', 'unitPrice': '€ 0,07419', 'extendedPrice': '€ 74,19'}]}, {'digikeyProductNumber': '754-1116-2-ND', 'id': '1747514', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '2.000', 'unitPrice': '€ 0,06452', 'extendedPrice': '€ 129,04'}, {'breakQty': '6.000', 'unitPrice': '€ 0,05807', 'extendedPrice': '€ 348,42'}, {'breakQty': '10.000', 'unitPrice': '€ 0,05162', 'extendedPrice': '€ 516,20'}, {'breakQty': '50.000', 'unitPrice': '€ 0,04565', 'extendedPrice': '€ 2.282,50'}]}]
+2022-02-08 17:30:57,145 - BOM - parse_digikey - INFO - digikey: {'stock': 313637, 'price_1': 0.29, 'price_10': 2.23}
+2022-02-08 17:30:57,145 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Kingbright/APT1608CGCK?qs=VdjlWU%2FzoOFSew86JUt6QA%3D%3D
+2022-02-08 17:30:57,145 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Kingbright/APT1608CGCK?qs=VdjlWU%2FzoOFSew86JUt6QA%3D%3D
+2022-02-08 17:30:58,096 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:30:58,097 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:30:58,234 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 337.786
+            </h2>
+2022-02-08 17:30:58,237 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,245
+                                </td>
+2022-02-08 17:30:58,239 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,172
+                                </td>
+2022-02-08 17:30:58,239 - BOM - parse_mouser - INFO - mouser: {'stock': 337786, 'price_1': 0.245, 'price_10': 1.7199999999999998}
+2022-02-08 17:30:59,241 - BOM - <module> - INFO - row: 17, name: LED, 0603, Red, partnumber: APT1608SRCPRV, quantity: 2
+2022-02-08 17:30:59,241 - BOM - <module> - INFO - description: Chip LED, Red
+2022-02-08 17:30:59,242 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/kingbright/APT1608SRCPRV/1747520?s=N4IgTCBcDaIIIAUAqBGAbABgBwGUBKAwgngGogC6AvkA
+2022-02-08 17:30:59,242 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kingbright/APT1608SRCPRV/1747520?s=N4IgTCBcDaIIIAUAqBGAbABgBwGUBKAwgngGogC6AvkA
+2022-02-08 17:31:00,771 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:00,771 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:01,000 - BOM - parse_digikey - DEBUG - digikey stock raw: 9.232
+2022-02-08 17:31:01,000 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '754-1122-1-ND', 'id': '1747839', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,28000', 'extendedPrice': '€ 0,28'}, {'breakQty': '10', 'unitPrice': '€ 0,21600', 'extendedPrice': '€ 2,16'}, {'breakQty': '100', 'unitPrice': '€ 0,09700', 'extendedPrice': '€ 9,70'}, {'breakQty': '500', 'unitPrice': '€ 0,08766', 'extendedPrice': '€ 43,83'}, {'breakQty': '1.000', 'unitPrice': '€ 0,07201', 'extendedPrice': '€ 72,01'}]}, {'digikeyProductNumber': '754-1122-2-ND', 'id': '1747520', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '2.000', 'unitPrice': '€ 0,06262', 'extendedPrice': '€ 125,24'}, {'breakQty': '6.000', 'unitPrice': '€ 0,05636', 'extendedPrice': '€ 338,16'}, {'breakQty': '10.000', 'unitPrice': '€ 0,05010', 'extendedPrice': '€ 501,00'}, {'breakQty': '50.000', 'unitPrice': '€ 0,04431', 'extendedPrice': '€ 2.215,50'}]}]
+2022-02-08 17:31:01,000 - BOM - parse_digikey - INFO - digikey: {'stock': 9232, 'price_1': 0.28, 'price_10': 2.16}
+2022-02-08 17:31:01,000 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/Kingbright/APT1608SRCPRV?qs=y3UkhjaxUTbj6qT9EqlVug%3D%3D
+2022-02-08 17:31:01,001 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/Kingbright/APT1608SRCPRV?qs=y3UkhjaxUTbj6qT9EqlVug%3D%3D
+2022-02-08 17:31:01,578 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:01,578 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:01,718 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 4.969
+            </h2>
+2022-02-08 17:31:01,721 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,35
+                                </td>
+2022-02-08 17:31:01,724 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,188
+                                </td>
+2022-02-08 17:31:01,724 - BOM - parse_mouser - INFO - mouser: {'stock': 4969, 'price_1': 0.35, 'price_10': 1.88}
+2022-02-08 17:31:02,725 - BOM - <module> - INFO - row: 18, name: MM3Z18VB, partnumber: MM3Z18VB, quantity: 1
+2022-02-08 17:31:02,726 - BOM - <module> - INFO - description: None
+2022-02-08 17:31:02,726 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/onsemi/MM3Z18VB/1626741?s=N4IgTCBcDaILJwMwC0CMAOAagIRAXQF8g
+2022-02-08 17:31:02,727 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/onsemi/MM3Z18VB/1626741?s=N4IgTCBcDaILJwMwC0CMAOAagIRAXQF8g
+2022-02-08 17:31:03,932 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:03,933 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:04,159 - BOM - parse_digikey - DEBUG - digikey stock raw: None
+2022-02-08 17:31:04,159 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': 'MM3Z18VBCT-ND', 'id': '1626857', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,21000', 'extendedPrice': '€ 0,21'}, {'breakQty': '10', 'unitPrice': '€ 0,17500', 'extendedPrice': '€ 1,75'}, {'breakQty': '100', 'unitPrice': '€ 0,09300', 'extendedPrice': '€ 9,30'}, {'breakQty': '500', 'unitPrice': '€ 0,06118', 'extendedPrice': '€ 30,59'}, {'breakQty': '1.000', 'unitPrice': '€ 0,04161', 'extendedPrice': '€ 41,61'}]}, {'digikeyProductNumber': 'MM3Z18VBTR-ND', 'id': '1626741', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '3.000', 'unitPrice': '€ 0,03753', 'extendedPrice': '€ 112,59'}, {'breakQty': '6.000', 'unitPrice': '€ 0,03264', 'extendedPrice': '€ 195,84'}, {'breakQty': '15.000', 'unitPrice': '€ 0,02774', 'extendedPrice': '€ 416,10'}, {'breakQty': '30.000', 'unitPrice': '€ 0,02694', 'extendedPrice': '€ 808,20'}]}]
+2022-02-08 17:31:04,159 - BOM - parse_digikey - INFO - digikey: {'stock': None, 'price_1': 0.21, 'price_10': 1.75}
+2022-02-08 17:31:04,160 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/onsemi-Fairchild/MM3Z18VB?qs=sGAEpiMZZMtdo5lL%2F%252BX2B6heL5qUfdQ2
+2022-02-08 17:31:04,160 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/onsemi-Fairchild/MM3Z18VB?qs=sGAEpiMZZMtdo5lL%2F%252BX2B6heL5qUfdQ2
+2022-02-08 17:31:04,873 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:04,873 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:05,012 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 18.542
+            </h2>
+2022-02-08 17:31:05,014 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,219
+                                </td>
+2022-02-08 17:31:05,017 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,179
+                                </td>
+2022-02-08 17:31:05,017 - BOM - parse_mouser - INFO - mouser: {'stock': 18542, 'price_1': 0.219, 'price_10': 1.79}
+2022-02-08 17:31:06,018 - BOM - <module> - INFO - row: 19, name: 1x2_Pin_Header, partnumber: S2B-XH-A(LF)(SN), quantity: 1
+2022-02-08 17:31:06,018 - BOM - <module> - INFO - description: JST XH 0.1" HEADER
+2022-02-08 17:31:06,019 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055?s=N4IgTCBcDaIMpgEIFoAaAJZBBAFAGQDEBKHOAOSJAF0BfIA
+2022-02-08 17:31:06,019 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055?s=N4IgTCBcDaIMpgEIFoAaAJZBBAFAGQDEBKHOAOSJAF0BfIA
+2022-02-08 17:31:07,107 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:07,108 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:07,282 - BOM - parse_digikey - DEBUG - digikey stock raw: 141.979
+2022-02-08 17:31:07,282 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '455-2257-ND', 'id': '1651055', 'packaging': 'Bulk', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,16000', 'extendedPrice': '€ 0,16'}, {'breakQty': '10', 'unitPrice': '€ 0,13400', 'extendedPrice': '€ 1,34'}, {'breakQty': '100', 'unitPrice': '€ 0,10330', 'extendedPrice': '€ 10,33'}, {'breakQty': '500', 'unitPrice': '€ 0,08738', 'extendedPrice': '€ 43,69'}, {'breakQty': '1.000', 'unitPrice': '€ 0,07149', 'extendedPrice': '€ 71,49'}, {'breakQty': '5.000', 'unitPrice': '€ 0,06355', 'extendedPrice': '€ 317,75'}, {'breakQty': '10.000', 'unitPrice': '€ 0,05759', 'extendedPrice': '€ 575,90'}]}]
+2022-02-08 17:31:07,283 - BOM - parse_digikey - INFO - digikey: {'stock': 141979, 'price_1': 0.16, 'price_10': 1.34}
+2022-02-08 17:31:07,283 - BOM - <module> - INFO - url mouser : None
+2022-02-08 17:31:08,284 - BOM - <module> - INFO - row: 20, name: 100n, partnumber: C0603C104K5RACTU, quantity: 1
+2022-02-08 17:31:08,285 - BOM - <module> - INFO - description: 100n, 0603
+2022-02-08 17:31:08,285 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:08,286 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:08,950 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:08,950 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:08,951 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:09,360 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:09,360 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:09,361 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:09,776 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:09,776 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:09,777 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:10,179 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:10,179 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:10,180 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:10,794 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:10,794 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:10,963 - BOM - parse_digikey - DEBUG - digikey stock raw: 10.615.207
+2022-02-08 17:31:10,964 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '399-C0603C104K5RAC7867CT-ND', 'id': '1465623', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,11000', 'extendedPrice': '€ 0,11'}, {'breakQty': '10', 'unitPrice': '€ 0,07600', 'extendedPrice': '€ 0,76'}, {'breakQty': '50', 'unitPrice': '€ 0,04140', 'extendedPrice': '€ 2,07'}, {'breakQty': '100', 'unitPrice': '€ 0,03370', 'extendedPrice': '€ 3,37'}, {'breakQty': '500', 'unitPrice': '€ 0,02414', 'extendedPrice': '€ 12,07'}, {'breakQty': '1.000', 'unitPrice': '€ 0,01896', 'extendedPrice': '€ 18,96'}]}, {'digikeyProductNumber': '399-C0603C104K5RAC7867TR-ND', 'id': '1465594', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '4.000', 'unitPrice': '€ 0,01585', 'extendedPrice': '€ 63,40'}, {'breakQty': '8.000', 'unitPrice': '€ 0,01447', 'extendedPrice': '€ 115,76'}]}]
+2022-02-08 17:31:10,964 - BOM - parse_digikey - INFO - digikey: {'stock': 10615207, 'price_1': 0.11, 'price_10': 0.76}
+2022-02-08 17:31:10,964 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D
+2022-02-08 17:31:10,964 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D
+2022-02-08 17:31:11,613 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:11,613 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:11,752 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 2.196.736
+            </h2>
+2022-02-08 17:31:11,755 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,228
+                                </td>
+2022-02-08 17:31:11,757 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,103
+                                </td>
+2022-02-08 17:31:11,757 - BOM - parse_mouser - INFO - mouser: {'stock': 2196736, 'price_1': 0.228, 'price_10': 1.03}
+2022-02-08 17:31:12,758 - BOM - <module> - INFO - row: 21, name: 10R, partnumber: RC0603FR-0710RL, quantity: 2
+2022-02-08 17:31:12,759 - BOM - <module> - INFO - description: 10R res, 0603, 1%, 1/10W
+2022-02-08 17:31:12,759 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0710RL/726879?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJwAyIAugL5A
+2022-02-08 17:31:12,760 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0710RL/726879?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJwAyIAugL5A
+2022-02-08 17:31:13,251 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:13,252 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:13,253 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0710RL/726879?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJwAyIAugL5A
+2022-02-08 17:31:13,763 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:13,764 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:13,765 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0710RL/726879?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJwAyIAugL5A
+2022-02-08 17:31:14,173 - BOM - <module> - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "BOM.py", line 157, in <module>
+    data_digikey = get_part_info(url_digikey, parse_digikey)
+  File "BOM.py", line 130, in get_part_info
+    resp = request.urlopen(req, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2022-02-08 17:31:14,173 - BOM - <module> - WARNING - Trying again
+2022-02-08 17:31:14,174 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0710RL/726879?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJwAyIAugL5A
+2022-02-08 17:31:15,306 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:15,306 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:15,522 - BOM - parse_digikey - DEBUG - digikey stock raw: 1.690.701
+2022-02-08 17:31:15,522 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '311-10.0HRCT-ND', 'id': '729826', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,09000', 'extendedPrice': '€ 0,09'}, {'breakQty': '10', 'unitPrice': '€ 0,04300', 'extendedPrice': '€ 0,43'}, {'breakQty': '100', 'unitPrice': '€ 0,01740', 'extendedPrice': '€ 1,74'}, {'breakQty': '1.000', 'unitPrice': '€ 0,00781', 'extendedPrice': '€ 7,81'}, {'breakQty': '2.500', 'unitPrice': '€ 0,00677', 'extendedPrice': '€ 16,93'}]}, {'digikeyProductNumber': '311-10.0HRTR-ND', 'id': '726879', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '5.000', 'unitPrice': '€ 0,00559', 'extendedPrice': '€ 27,95'}]}]
+2022-02-08 17:31:15,522 - BOM - parse_digikey - INFO - digikey: {'stock': 1690701, 'price_1': 0.09, 'price_10': 0.43}
+2022-02-08 17:31:15,522 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0710RL?qs=womCuNp6NjhtCUybQ%252B6d6w%3D%3D
+2022-02-08 17:31:15,523 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0710RL?qs=womCuNp6NjhtCUybQ%252B6d6w%3D%3D
+2022-02-08 17:31:16,022 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:16,023 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:16,163 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 761.435
+            </h2>
+2022-02-08 17:31:16,166 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,088
+                                </td>
+2022-02-08 17:31:16,168 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,042
+                                </td>
+2022-02-08 17:31:16,168 - BOM - parse_mouser - INFO - mouser: {'stock': 761435, 'price_1': 0.088, 'price_10': 0.42000000000000004}
+2022-02-08 17:31:17,170 - BOM - <module> - INFO - row: 22, name: 75R, partnumber: RC0805FR-0775RL, quantity: 1
+2022-02-08 17:31:17,170 - BOM - <module> - INFO - description: 75R res, 0805, 1%, 1/8W
+2022-02-08 17:31:17,171 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/yageo/RC0805FR-0775RL/728132?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7PunADIgC6AvkA
+2022-02-08 17:31:17,171 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0805FR-0775RL/728132?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7PunADIgC6AvkA
+2022-02-08 17:31:17,659 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:17,659 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:17,814 - BOM - parse_digikey - DEBUG - digikey stock raw: 160.440
+2022-02-08 17:31:17,814 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '311-75.0CRCT-ND', 'id': '731079', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,09000', 'extendedPrice': '€ 0,09'}, {'breakQty': '10', 'unitPrice': '€ 0,03800', 'extendedPrice': '€ 0,38'}, {'breakQty': '100', 'unitPrice': '€ 0,01510', 'extendedPrice': '€ 1,51'}, {'breakQty': '1.000', 'unitPrice': '€ 0,00679', 'extendedPrice': '€ 6,79'}, {'breakQty': '2.500', 'unitPrice': '€ 0,00590', 'extendedPrice': '€ 14,75'}]}, {'digikeyProductNumber': '311-75.0CRTR-ND', 'id': '728132', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '5.000', 'unitPrice': '€ 0,00487', 'extendedPrice': '€ 24,35'}]}]
+2022-02-08 17:31:17,814 - BOM - parse_digikey - INFO - digikey: {'stock': 160440, 'price_1': 0.09, 'price_10': 0.38}
+2022-02-08 17:31:17,815 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-0775RL?qs=VLOqbHBAO5d0HKIsXtPpHg%3D%3D
+2022-02-08 17:31:17,815 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-0775RL?qs=VLOqbHBAO5d0HKIsXtPpHg%3D%3D
+2022-02-08 17:31:18,272 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:18,273 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:18,410 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 13.551
+            </h2>
+2022-02-08 17:31:18,412 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,114
+                                </td>
+2022-02-08 17:31:18,415 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,027
+                                </td>
+2022-02-08 17:31:18,415 - BOM - parse_mouser - INFO - mouser: {'stock': 13551, 'price_1': 0.114, 'price_10': 0.27}
+2022-02-08 17:31:19,416 - BOM - <module> - INFO - row: 23, name: 2k, partnumber: RC0805FR-072KL, quantity: 1
+2022-02-08 17:31:19,417 - BOM - <module> - INFO - description: 2k, 0805, 1%, 1/8W
+2022-02-08 17:31:19,417 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/yageo/RC0805FR-072KL/727664?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7GANIAyIAugL5A
+2022-02-08 17:31:19,418 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0805FR-072KL/727664?s=N4IgTCBcDaIEoGEAMAOJBWAYnAtEg7GANIAyIAugL5A
+2022-02-08 17:31:19,965 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:19,965 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:20,177 - BOM - parse_digikey - DEBUG - digikey stock raw: 878.225
+2022-02-08 17:31:20,177 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '311-2.00KCRCT-ND', 'id': '730611', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,09000', 'extendedPrice': '€ 0,09'}, {'breakQty': '10', 'unitPrice': '€ 0,03800', 'extendedPrice': '€ 0,38'}, {'breakQty': '100', 'unitPrice': '€ 0,01510', 'extendedPrice': '€ 1,51'}, {'breakQty': '1.000', 'unitPrice': '€ 0,00679', 'extendedPrice': '€ 6,79'}, {'breakQty': '2.500', 'unitPrice': '€ 0,00590', 'extendedPrice': '€ 14,75'}]}, {'digikeyProductNumber': '311-2.00KCRTR-ND', 'id': '727664', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '5.000', 'unitPrice': '€ 0,00487', 'extendedPrice': '€ 24,35'}]}]
+2022-02-08 17:31:20,177 - BOM - parse_digikey - INFO - digikey: {'stock': 878225, 'price_1': 0.09, 'price_10': 0.38}
+2022-02-08 17:31:20,177 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-072KL?qs=QrWOOBGzeCYk%2Fx0gjMNmqg%3D%3D
+2022-02-08 17:31:20,178 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-072KL?qs=QrWOOBGzeCYk%2Fx0gjMNmqg%3D%3D
+2022-02-08 17:31:21,342 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:21,342 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:21,483 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 168.830
+            </h2>
+2022-02-08 17:31:21,485 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,088
+                                </td>
+2022-02-08 17:31:21,488 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,025
+                                </td>
+2022-02-08 17:31:21,488 - BOM - parse_mouser - INFO - mouser: {'stock': 168830, 'price_1': 0.088, 'price_10': 0.25}
+2022-02-08 17:31:22,489 - BOM - <module> - INFO - row: 24, name: 1k, partnumber: RC0603FR-071KL, quantity: 5
+2022-02-08 17:31:22,490 - BOM - <module> - INFO - description: 1k res, 0603, 1%, 1/10W
+2022-02-08 17:31:22,490 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA
+2022-02-08 17:31:22,491 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA
+2022-02-08 17:31:23,082 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:23,083 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:23,243 - BOM - parse_digikey - DEBUG - digikey stock raw: 11.735.682
+2022-02-08 17:31:23,243 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '311-1.00KHRCT-ND', 'id': '729790', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,09000', 'extendedPrice': '€ 0,09'}, {'breakQty': '10', 'unitPrice': '€ 0,02100', 'extendedPrice': '€ 0,21'}, {'breakQty': '100', 'unitPrice': '€ 0,00870', 'extendedPrice': '€ 0,87'}, {'breakQty': '1.000', 'unitPrice': '€ 0,00390', 'extendedPrice': '€ 3,90'}, {'breakQty': '2.500', 'unitPrice': '€ 0,00339', 'extendedPrice': '€ 8,47'}]}, {'digikeyProductNumber': '311-1.00KHRTR-ND', 'id': '726843', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '5.000', 'unitPrice': '€ 0,00280', 'extendedPrice': '€ 14,00'}]}]
+2022-02-08 17:31:23,243 - BOM - parse_digikey - INFO - digikey: {'stock': 11735682, 'price_1': 0.09, 'price_10': 0.21}
+2022-02-08 17:31:23,244 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D
+2022-02-08 17:31:23,244 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D
+2022-02-08 17:31:23,799 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:23,799 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:23,935 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                Beschikbaarheid
+            </h2>
+2022-02-08 17:31:23,938 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,088
+                                </td>
+2022-02-08 17:31:23,940 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,018
+                                </td>
+2022-02-08 17:31:23,940 - BOM - parse_mouser - INFO - mouser: {'stock': None, 'price_1': 0.088, 'price_10': 0.18}
+2022-02-08 17:31:24,942 - BOM - <module> - INFO - row: 25, name: 22k, partnumber: RC0603FR-0722KL, quantity: 1
+2022-02-08 17:31:24,942 - BOM - <module> - INFO - description: 22k res, 0603, 1%, 1/10W
+2022-02-08 17:31:24,943 - BOM - <module> - INFO - url digikey: https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0722KL/727056?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7GGANIAyIAugL5A
+2022-02-08 17:31:24,943 - BOM - get_part_info - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-0722KL/727056?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7GGANIAyIAugL5A
+2022-02-08 17:31:25,440 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:25,440 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:25,604 - BOM - parse_digikey - DEBUG - digikey stock raw: 956.321
+2022-02-08 17:31:25,604 - BOM - parse_digikey - DEBUG - digikey pricings raw: [{'digikeyProductNumber': '311-22.0KHRCT-ND', 'id': '730003', 'packaging': 'Cut Tape (CT) & Digi-Reel®', 'pricingTiers': [{'breakQty': '1', 'unitPrice': '€ 0,09000', 'extendedPrice': '€ 0,09'}, {'breakQty': '10', 'unitPrice': '€ 0,02100', 'extendedPrice': '€ 0,21'}, {'breakQty': '100', 'unitPrice': '€ 0,00870', 'extendedPrice': '€ 0,87'}, {'breakQty': '1.000', 'unitPrice': '€ 0,00390', 'extendedPrice': '€ 3,90'}, {'breakQty': '2.500', 'unitPrice': '€ 0,00339', 'extendedPrice': '€ 8,47'}]}, {'digikeyProductNumber': '311-22.0KHRTR-ND', 'id': '727056', 'packaging': 'Tape & Reel (TR)', 'pricingTiers': [{'breakQty': '5.000', 'unitPrice': '€ 0,00280', 'extendedPrice': '€ 14,00'}]}]
+2022-02-08 17:31:25,605 - BOM - parse_digikey - INFO - digikey: {'stock': 956321, 'price_1': 0.09, 'price_10': 0.21}
+2022-02-08 17:31:25,605 - BOM - <module> - INFO - url mouser : https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0722KL?qs=diQw95jMAeO86nsIZoklhA%3D%3D
+2022-02-08 17:31:25,605 - BOM - get_part_info - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0722KL?qs=diQw95jMAeO86nsIZoklhA%3D%3D
+2022-02-08 17:31:26,155 - BOM - get_part_info - DEBUG - resp.status: 200
+2022-02-08 17:31:26,155 - BOM - get_part_info - DEBUG - resp encoding: gzip
+2022-02-08 17:31:26,336 - BOM - parse_mouser - DEBUG - mouser stock_tag: <h2 class="panel-title pdp-pricing-header">
+                In voorraad: 288.095
+            </h2>
+2022-02-08 17:31:26,339 - BOM - parse_mouser - DEBUG - mouser price_1_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_1 unitpricecolhdr">
+                                    € 0,088
+                                </td>
+2022-02-08 17:31:26,341 - BOM - parse_mouser - DEBUG - mouser price_10_tag: <td class="text-right" headers="cuttapehdr pricebreakqty_10 unitpricecolhdr">
+                                    € 0,012
+                                </td>
+2022-02-08 17:31:26,341 - BOM - parse_mouser - INFO - mouser: {'stock': 288095, 'price_1': 0.088, 'price_10': 0.12}
+2022-02-08 17:31:27,344 - BOM - <module> - INFO - 732511150
+2022-02-08 17:31:27,345 - BOM - <module> - INFO - mouser stock: 9851
+2022-02-08 17:31:27,345 - BOM - <module> - INFO - digikey stock: 6841
+2022-02-08 17:31:27,345 - BOM - <module> - INFO - digikey cheaper (30.33 < 47.1)
+2022-02-08 17:31:27,346 - BOM - <module> - DEBUG - https://www.digikey.nl/nl/products/detail/molex/0732511150/1465156?s=N4IgTCBcDaIOwGYwFYCM7kAYQF0C%2BQA
+2022-02-08 17:31:27,346 - BOM - <module> - INFO - KRM55TR72J474MH01K
+2022-02-08 17:31:27,346 - BOM - <module> - INFO - need alt for KRM55TR72J474MH01K (0.47uF,630V,X7T)
+2022-02-08 17:31:27,346 - BOM - <module> - INFO - suggestion: https://nl.mouser.com/ProductDetail/?qs=xLDY6iXSiQYMSPjuQ3DdrA%3D%3D
+2022-02-08 17:31:27,347 - BOM - <module> - INFO - RGT16BM65DTL
+2022-02-08 17:31:27,347 - BOM - <module> - INFO - mouser stock: 159
+2022-02-08 17:31:27,347 - BOM - <module> - INFO - mouser stock only (14.5)
+2022-02-08 17:31:27,348 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/ROHM-Semiconductor/RGT16BM65DTL?qs=4v%252BiZTmLVHGsXtf6QO%2FjWw%3D%3D
+2022-02-08 17:31:27,348 - BOM - <module> - INFO - ATB322524-0110-T000
+2022-02-08 17:31:27,348 - BOM - <module> - INFO - mouser stock: 10106
+2022-02-08 17:31:27,348 - BOM - <module> - INFO - digikey stock: 7809
+2022-02-08 17:31:27,348 - BOM - <module> - INFO - mouser cheaper (10.3 < 12.89)
+2022-02-08 17:31:27,348 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/TDK/ATB322524-0110-T000?qs=YdQ7Kj7W0bzHAfbwG35aKQ%3D%3D
+2022-02-08 17:31:27,348 - BOM - <module> - INFO - LDA111STR
+2022-02-08 17:31:27,348 - BOM - <module> - INFO - mouser stock: 104
+2022-02-08 17:31:27,349 - BOM - <module> - INFO - mouser stock only (10.2)
+2022-02-08 17:31:27,349 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/IXYS-Integrated-Circuits/LDA111STR?qs=lQlU%252BwB40guZJ8WaenQLCg%3D%3D
+2022-02-08 17:31:27,349 - BOM - <module> - INFO - 3522300KFT
+2022-02-08 17:31:27,349 - BOM - <module> - INFO - mouser stock: 576
+2022-02-08 17:31:27,349 - BOM - <module> - INFO - digikey stock: 3256
+2022-02-08 17:31:27,349 - BOM - <module> - INFO - mouser cheaper (6.42 < 8.19)
+2022-02-08 17:31:27,349 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/3522300KFT?qs=sGAEpiMZZMsyYdr3R27aV32w0MfNsmcpus8bt4qfMaE%3D
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - BG306-02-A-2-0400-L-G
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - mouser stock: 3499
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - digikey stock: 2178
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - mouser cheaper (4.85 < 5.72)
+2022-02-08 17:31:27,350 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/GCT/BG306-02-A-2-0400-L-G?qs=sGAEpiMZZMv0NwlthflBi0uEqgYQvB%2FUbQiryhy2eKU%3D
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - CRMA2010AF20M0FKEF
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - mouser stock: 629
+2022-02-08 17:31:27,350 - BOM - <module> - INFO - digikey stock: 3320
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - digikey cheaper (5.2 < 6.5600000000000005)
+2022-02-08 17:31:27,351 - BOM - <module> - DEBUG - https://www.digikey.nl/nl/products/detail/vishay-dale/CRMA2010AF20M0FKEF/7803426?s=N4IgTCBcDaIMICUCyBBMAGAjOlAxDS6uA0gKK4gC6AvkA
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - KSC741JLFS
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - digikey stock: 58074
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - digikey stock only (4.37)
+2022-02-08 17:31:27,351 - BOM - <module> - DEBUG - https://www.digikey.nl/nl/products/detail/c-k/KSC741J-LFS/2414968?s=N4IgTCBcDaINIGUDCB2ALARgFIBkBiCIAugL5A
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - TL3301AF160QJ
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - mouser stock: 23800
+2022-02-08 17:31:27,351 - BOM - <module> - INFO - digikey stock: 35118
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - mouser cheaper (3.91 < 4.0)
+2022-02-08 17:31:27,352 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/E-Switch/TL3301AF160QJ?qs=rR7wk9eDIwpYK6uQXPvPHg%3D%3D
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - MURA160T3G
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - need alt for MURA160T3G (MURA160T3G)
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - suggestion: https://nl.mouser.com/ProductDetail/Diodes-Incorporated/US1J-13-F?qs=ycneeFzpdzhpFoh35BSVzg%3D%3D
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - SM4005PL-TP
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - mouser stock: 1436
+2022-02-08 17:31:27,352 - BOM - <module> - INFO - mouser stock only (3.08)
+2022-02-08 17:31:27,352 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SM4005PL-TP?qs=SdqRYZZ9IxBkssf%2FQ6q0Qg%3D%3D
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - AO3422
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - need alt for AO3422 (AO3422)
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - suggestion: https://nl.mouser.com/ProductDetail/?qs=T3oQrply3y%2Frl%252BtsBfD26A%3D%3D
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - C2012X5R1H475K125AB
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - mouser stock: 365421
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - digikey stock: 155587
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - mouser cheaper (2.6 < 2.94)
+2022-02-08 17:31:27,353 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/TDK/C2012X5R1H475K125AB?qs=NRhsANhppD%252BC04rCIKmBpA%3D%3D
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - APT1608CGCK
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - mouser stock: 337786
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - digikey stock: 313637
+2022-02-08 17:31:27,353 - BOM - <module> - INFO - mouser cheaper (1.7199999999999998 < 2.23)
+2022-02-08 17:31:27,354 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/Kingbright/APT1608CGCK?qs=VdjlWU%2FzoOFSew86JUt6QA%3D%3D
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - APT1608SRCPRV
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - mouser stock: 4969
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - digikey stock: 9232
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - mouser cheaper (1.88 < 2.16)
+2022-02-08 17:31:27,354 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/Kingbright/APT1608SRCPRV?qs=y3UkhjaxUTbj6qT9EqlVug%3D%3D
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - MM3Z18VB
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - mouser stock: 18542
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - mouser stock only (1.79)
+2022-02-08 17:31:27,354 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/onsemi-Fairchild/MM3Z18VB?qs=sGAEpiMZZMtdo5lL%2F%252BX2B6heL5qUfdQ2
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - S2B-XH-A(LF)(SN)
+2022-02-08 17:31:27,354 - BOM - <module> - INFO - digikey stock: 141979
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - digikey stock only (1.34)
+2022-02-08 17:31:27,355 - BOM - <module> - DEBUG - https://www.digikey.nl/nl/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055?s=N4IgTCBcDaIMpgEIFoAaAJZBBAFAGQDEBKHOAOSJAF0BfIA
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - C0603C104K5RACTU
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - mouser stock: 2196736
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - digikey stock: 10615207
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - digikey cheaper (0.76 < 1.03)
+2022-02-08 17:31:27,355 - BOM - <module> - DEBUG - https://www.digikey.nl/nl/products/detail/kemet/C0603C104K5RAC7867/1465594?s=N4IgTCBcDaIMwE4EFoCsAGAHCsyByAIiALoC%2BQA
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - RC0603FR-0710RL
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - mouser stock: 761435
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - digikey stock: 1690701
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - mouser cheaper (0.42000000000000004 < 0.43)
+2022-02-08 17:31:27,355 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0710RL?qs=womCuNp6NjhtCUybQ%252B6d6w%3D%3D
+2022-02-08 17:31:27,355 - BOM - <module> - INFO - RC0805FR-0775RL
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - mouser stock: 13551
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - digikey stock: 160440
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - mouser cheaper (0.27 < 0.38)
+2022-02-08 17:31:27,356 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-0775RL?qs=VLOqbHBAO5d0HKIsXtPpHg%3D%3D
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - RC0805FR-072KL
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - mouser stock: 168830
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - digikey stock: 878225
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - mouser cheaper (0.25 < 0.38)
+2022-02-08 17:31:27,356 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0805FR-072KL?qs=QrWOOBGzeCYk%2Fx0gjMNmqg%3D%3D
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - RC0603FR-071KL
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - digikey stock: 11735682
+2022-02-08 17:31:27,356 - BOM - <module> - INFO - digikey stock only (0.21)
+2022-02-08 17:31:27,356 - BOM - <module> - DEBUG - https://www.digikey.nl/nl/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA
+2022-02-08 17:31:27,357 - BOM - <module> - INFO - RC0603FR-0722KL
+2022-02-08 17:31:27,357 - BOM - <module> - INFO - mouser stock: 288095
+2022-02-08 17:31:27,357 - BOM - <module> - INFO - digikey stock: 956321
+2022-02-08 17:31:27,357 - BOM - <module> - INFO - mouser cheaper (0.12 < 0.21)
+2022-02-08 17:31:27,357 - BOM - <module> - DEBUG - https://nl.mouser.com/ProductDetail/YAGEO/RC0603FR-0722KL?qs=diQw95jMAeO86nsIZoklhA%3D%3D
